@@ -1,0 +1,62 @@
+@import "global.scss";
+
+$searchBg-color: #19262b;
+$placeHolder-color: #fff;
+$placeHolder-opacity: 1;
+
+
+.search {
+  margin: 0;
+  padding: 0 10%;
+  position: relative;
+  z-index: 99;
+  width: 100%;
+  height: 80px;
+  line-height: 80px;
+  background-color: $searchBg-color;
+  display: none;
+
+  input {
+    margin: 15px 0;
+    background-color: #19262b;
+    font-family: headingFont;
+    color: #fff;
+    font-size: 2.5em;
+    outline: none;
+    border: none;
+    width: 75%;
+    float: left;
+
+    &::-webkit-input-placeholder { /* WebKit browsers */
+    color: $placeHolder-color;
+      opacity: $placeHolder-opacity;
+    }
+    &:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+      color: $placeHolder-color;
+      opacity:  $placeHolder-opacity;;
+    }
+    &::-moz-placeholder { /* Mozilla Firefox 19+ */
+      color: $placeHolder-color;
+      opacity:  $placeHolder-opacity;;
+    }
+    &:-ms-input-placeholder { /* Internet Explorer 10+ */
+      color: $placeHolder-color;
+      opacity: $placeHolder-opacity;
+    }
+  }
+
+  .close{
+    background-color: #19262b;
+    color: #fff;
+    font-family: iconFont;
+    font-size: 2.0em;
+    float: left;
+    width: 5%;
+
+    a{
+      text-decoration:none;
+      color: #fff;
+    }
+  }
+
+}

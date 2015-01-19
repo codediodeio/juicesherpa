@@ -1,0 +1,136 @@
+//imports
+@import "global.scss";
+
+//variables
+$base-color: #DA2845;
+$text-color: #333;
+$text-color-hover: #fff;
+$nav-color: #fff;
+$anchor-color: #5F040F;
+$alternate-color: #FC5555;
+
+
+//mixins
+
+@mixin hover-menu($color, $radius) {
+  padding: 5px 10px;
+  margin: -5px -10px;
+  background-color: $color;
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+
+}
+
+//styles
+nav {
+  width: 100%;
+  padding: 0 10% 0 10%;
+  height: 50px;
+  background-color: $alternate-color;
+  //border-bottom: thin solid rgba(200, 200, 200, .5);
+
+  ul {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+  }
+
+  li{
+    font-family: headingLight;
+    color: #fff;
+    text-transform: uppercase;
+    list-style: none;
+    text-align: center;
+    margin: 15px;
+    float: left;
+
+    a{
+      text-decoration: none;
+      color: #fff;
+    }
+  }
+}
+
+.nav-second {
+  background-color: #B8E986;
+  display: none;
+
+  ul {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+  }
+
+  li{
+    font-family: headingLight;
+    color: #417505;
+    text-transform: lowercase;
+    list-style: none;
+    text-align: center;
+    margin: 15px;
+    float: left;
+
+    a{
+      text-decoration: none;
+      color: #417505;
+    }
+  }
+}
+
+.nav-logo {
+  margin-left: 0 !important;
+}
+
+.search-button{
+  font-family: iconFont;
+  font-size: 1.5em;
+  text-transform: none !important;
+  color: #fff;
+}
+
+
+.nav-right {
+  float: right !important;
+  margin-right: 20%;
+  color: #fff;
+
+}
+
+.pull-left {
+  float: left !important;
+}
+
+.hover-red:hover {
+  @include hover-menu(red, 2px);
+  color: #fff;
+}
+
+.hover-orange:hover {
+  @include hover-menu(orange,  2px);
+  color: #fff;
+}
+
+.hover-green-force {
+  @include hover-menu(green, 2px);
+  color: #fff;
+  box-shadow: 0px 0px 5px 5px #F5F1EF;
+}
+
+.hover-green:hover {
+  @include hover-menu(green, 2px);
+  color: #fff;
+  box-shadow: 0px 0px 5px 5px #F5F1EF;
+}
+
+.dropdown {
+
+}
+
+.menu-icon {
+  font-family: iconFont;
+  font-size: 100%;
+  text-color: orange;
+  margin-left: 3px;
+}

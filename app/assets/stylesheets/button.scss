@@ -1,0 +1,52 @@
+@mixin button-style($color, $radius, $size){
+  background-color: $color;
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+  height: $size;
+  margin: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+@mixin transition($property, $duration, $easing){
+  -webkit-transition-property: $property;
+  -moz-transition-property: $property;
+  -o-transition-property: $property;
+  transition-property: $property;
+  -webkit-transition-duration: $duration;
+  -moz-transition-duration: $duration;
+  -o-transition-duration: $duration;
+  transition-duration: $duration;
+  -webkit-transition-timing-function: $easing;
+  -moz-transition-timing-function: $easing;
+  -o-transition-timing-function: $easing;
+  transition-timing-function: $easing;
+}
+
+
+.button-default {
+
+  @include button-style(#FC5555, 5px, 125%);
+  font-family: headingLight;
+  color: white;
+  border: thin dashed #FC5555;
+  font-size: 100%;
+  @include transition(background-color, 1s, swing);
+
+
+  &:hover {
+    background-color: #fff;
+    border: thin dashed #FC5555;
+    color: #FC5555;
+  }
+
+  &:active {
+    background-color: #FC5555;
+  }
+}
+
+.button-icon {
+  font-family: iconFont;
+}

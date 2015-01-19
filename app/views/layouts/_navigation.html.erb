@@ -1,0 +1,23 @@
+
+<div class="search group"><input placeholder="Search for a Juice..."></input><div class="close"><a href="">X</a></div></div>
+
+
+<nav>
+  <ul>
+      <li class="nav-logo">JS-LOGO</li>
+      <div class="nav-right">
+        <li><%= link_to 'Home', root_path %></li>
+        <li><%= link_to 'About', pages_about_path %></li>
+        <li class="dropdown"><%= link_to 'Explore', '#' %></li>
+        <li><span class="search-button"><a href="#search">s</a></span></li>
+      </div>
+  </ul>
+</nav>
+
+<nav class="nav-second">
+  <ul>
+      <li><%= link_to 'Carrots', root_path %></li>
+      <li><%= link_to 'Beets', root_path %></li>
+      <li><%= link_to 'Jicama', root_path %></li>
+  </ul>
+</nav>

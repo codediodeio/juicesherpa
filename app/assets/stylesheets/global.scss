@@ -1,0 +1,59 @@
+$bg-color-light: #fff;
+$bg-color-dark: #333;
+
+@font-face {
+  font-family: headingFont;
+  src: asset-url('Ubuntu-M.ttf');
+}
+
+@font-face {
+  font-family: headingLight;
+  src: asset-url('Ubuntu-L.ttf');
+}
+
+@font-face {
+  font-family: bodyFont;
+  src: asset-url('DroidSerif.ttf');
+}
+
+@font-face {
+  font-family: iconFont;
+  src: asset-url('modernpics.otf');
+}
+
+@font-face {
+  font-family: sansFont;
+  src: asset-url('DroidSans.ttf');
+}
+
+@font-face {
+  font-family: headingAlternate;
+  src: asset-url('NEORF___.ttf');
+}
+
+
+html,body
+{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  font-family: bodyFont;
+  font-size: 100%;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-family: headingFont;
+}
+
+h2 {
+  font-size: 1.875em;
+  font-family: headingFont;
+}
+
+p {
+  font-size: 0.875em;
+  font-family: bodyFont;
+}
