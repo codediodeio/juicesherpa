@@ -21,9 +21,16 @@ class RecipesController < ApplicationController
   end
 
   def create
-    @recipe = @user.recipes.new(recipe_params)
-    @recipe.save
-    respond_with(@recipe)
+    if current_user
+      @user = current_user
+      @recipe = @user.recipes.new(recipe_params)
+      @recipe.save
+      respond_with(@recipe)
+    else
+      @recipe = Recipe.new(recipe_params)
+      @recipe.save
+      respond_with(@recipe)
+    end
   end
 
   def update
