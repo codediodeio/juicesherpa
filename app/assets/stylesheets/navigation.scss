@@ -46,9 +46,20 @@ nav {
     margin: 15px;
     float: left;
 
-    a{
+  }
+
+  a {
+    color: #fff;
+    text-decoration: none;
+
+    &:hover{
       text-decoration: none;
+      border: none;
+    }
+
+    &:visited{
       color: #fff;
+      text-decoration: none;
     }
   }
 }

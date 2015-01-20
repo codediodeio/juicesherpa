@@ -47,6 +47,47 @@
   }
 }
 
+.button-inverse {
+  @include button-style(#FFF, 5px, 125%);
+  font-family: headingLight;
+  color: #FC5555;
+  border: thin dashed #FC5555;
+  font-size: 100%;
+  @include transition(background-color, 1s, swing);
+
+
+  &:hover {
+    background-color: #FC5555;
+    border: thin dashed #FC5555;
+    color: #FFF;
+  }
+
+  &:active {
+    background-color: #FC5555;
+  }
+
+}
+
+.button-cancel {
+  @include button-style(#F5A623, 5px, 100%);
+  font-family: headingLight;
+  color: #fff;
+  border: none;
+  font-size: 100%;
+  @include transition(background-color, 1s, swing);
+
+
+  &:hover {
+    background-color: #D0021B;
+    color: #FFF;
+  }
+
+  &:active {
+    background-color: #D0021B;
+  }
+
+}
+
 .button-icon {
   font-family: iconFont;
 }

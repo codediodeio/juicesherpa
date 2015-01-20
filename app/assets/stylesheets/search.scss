@@ -54,8 +54,13 @@ $placeHolder-opacity: 1;
     width: 5%;
 
     a{
-      text-decoration:none;
+      text-decoration: none;
       color: #fff;
+
+      &:hover{
+        text-decoration: none;
+        border: none;
+      }
     }
   }
 

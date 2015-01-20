@@ -12,6 +12,8 @@
   <%= render 'layouts/navigation' %>
 
   <div id="container">
+    <p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p>
 
   <%= yield %>
 
@@ -19,6 +21,7 @@
 
   <%= render 'layouts/footer' %>
 
-
+  <%= debug(params) %>
+  <%= current_user.inspect %>
 </body>
 </html>
