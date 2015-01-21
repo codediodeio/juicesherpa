@@ -22,7 +22,7 @@
   </div>
 
   <div class="actions">
-    <%= f.hidden_field :soft_user_token %>
+    <%= f.hidden_field :soft_user_token, value: current_user.soft_user_token %>
     <%= f.submit "Sign up", class: "button-default" %>
   </div>
 <% end %>

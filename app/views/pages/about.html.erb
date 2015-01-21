@@ -2,5 +2,12 @@
 <h1>Sample Heading</h1>
 
 <p>About Us...</p>
+
+<% if current_user.full_user? %>
+
+<%= link_to "Sign Out", destroy_user_session_path, method: :delete  %>
+
+<% end %>
+
 <h2>Build Juice Recipes</h2>
 <p>Here's how it works... </p>

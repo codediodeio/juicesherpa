@@ -6,7 +6,7 @@ class User < ActiveRecord::Base
 
   has_many :recipes
 
-=begin
+begin
   def soft_user?
     if self.email.empty?
       true
@@ -22,7 +22,7 @@ class User < ActiveRecord::Base
       false
     end
   end
-=end
+end
 
 
 end

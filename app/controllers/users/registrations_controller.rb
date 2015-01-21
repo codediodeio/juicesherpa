@@ -8,14 +8,18 @@ class Users::RegistrationsController < Devise::RegistrationsController
   # end
 
   # POST /resource
-   # def create
-   #  super
-   # end
+  #  def create
+  #   super
+  #  end
 
   # GET /resource/edit
-  # def edit
-  #   super
-  # end
+  def edit
+    if current_user.soft_user?
+      redirect_to new_user_registration_path
+    else
+      super
+    end
+  end
 
   # PUT /resource
   # def update
@@ -23,9 +27,17 @@ class Users::RegistrationsController < Devise::RegistrationsController
   # end
 
   # DELETE /resource
-  # def destroy
-  #   super
-  # end
+  def destroy
+    if current_user.recipes.present?
+      recipes = current_user.recipes
+      recipes.map do |r|
+        r.destroy
+      end
+      super
+    else
+      super
+    end
+  end
 
   # GET /resource/cancel
   # Forces the session data which is usually expired after sign
@@ -49,9 +61,21 @@ class Users::RegistrationsController < Devise::RegistrationsController
   # end
 
   # The path used after sign up.
-  # def after_sign_up_path_for(resource)
-  #   super(resource)
-  # end
+  def after_sign_up_path_for(resource)
+    merge_soft_recipes
+    super
+  end
+
+
+  def merge_soft_recipes
+    #soft_user_token = session[:soft_user_token]
+    recipes = Recipe.where(soft_user_token: current_user.soft_user_token)
+    recipes.map do |r|
+      r.user = current_user
+      r.user_id = current_user.id
+      r.save!
+    end
+  end
 
   # The path used after sign up for inactive accounts.
   # def after_inactive_sign_up_path_for(resource)

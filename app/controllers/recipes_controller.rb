@@ -21,9 +21,10 @@ class RecipesController < ApplicationController
   end
 
   def create
-    if current_user
+    if current_user.soft_user?
       @user = current_user
       @recipe = @user.recipes.new(recipe_params)
+      @recipe.soft_user_token = current_user.soft_user_token
       @recipe.save
       respond_with(@recipe)
     else
