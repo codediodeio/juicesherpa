@@ -1,10 +1,28 @@
 <h1>Juice Sherpa Homepage</h1>
 <p>Welcome to JuiceSherpa.com. Your destination for inspiring Juice recipies.</p>
 
-<h2>Popular Juices</h2>
-<%= button_tag "Hello Juice!", class: "button-default" %>
+<h2>My Juice Recipes</h2>
 
-<p>Juice Feed...</p>
+<% if current_user.recipes.present? %>
+<% current_user.recipes.each do |recipe| %>
+
+<div class="juice-container">
+  <h3><%= recipe.name %></h3>
+  <p>A subtle brew of carrots, beets, jicama, and ginger.</p>
+</div>
+
+<% end %>
+<% else %>
+
+<p>It looks like you haven't created any Juices yet, why not give it a try? It's fun stuff!</p>
+
+<%= link_to "Create Recipe", new_recipe_path %>
+
+<button href="/recipes/new" class="button-default" type="submit"><span class="button-icon">( </span>Build a Recipe</button>
+
+<% end %>
+
+<h2>Popular Juices</h2>
 
 <div class="juice-container">
   <h3>Sample Recipe</h3>
@@ -20,6 +38,3 @@
   <h3>Sample Recipe</h3>
   <p>A subtle brew of carrots, beets, jicama, and ginger.</p>
 </div>
-
-<h2>Create Your Own</h2>
-<button type="commit" class="button-default"><span class=button-icon>( </span>Analyze my Juice</button>

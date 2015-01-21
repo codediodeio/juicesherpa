@@ -5,7 +5,17 @@
 
 <% if current_user.full_user? %>
 
-<%= link_to "Sign Out", destroy_user_session_path, method: :delete  %>
+<%= button_to "Sign Out", destroy_user_session_path, class: "button-default", method: :delete  %>
+
+<% end %>
+
+<% if current_user.needs_engagement? %>
+
+Howdy Friend,
+
+It looks like you sure are enjoying this app, why not become a full memeber and reap all the benefits?
+
+<%= button_to "Sign Up", new_user_registration_path, class: "button-default", method: :get %>
 
 <% end %>
 

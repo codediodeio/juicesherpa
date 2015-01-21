@@ -27,6 +27,8 @@ $placeHolder-opacity: 1;
     width: 75%;
     float: left;
 
+    // Could define a mixin here, but meh...
+
     &::-webkit-input-placeholder { /* WebKit browsers */
     color: $placeHolder-color;
       opacity: $placeHolder-opacity;

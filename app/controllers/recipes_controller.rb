@@ -44,6 +44,10 @@ class RecipesController < ApplicationController
     respond_with(@recipe)
   end
 
+  def search
+    @recipes = Recipe.search(params)
+  end
+
   private
     def set_recipe
       @recipe = Recipe.find(params[:id])

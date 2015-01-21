@@ -6,7 +6,7 @@ class User < ActiveRecord::Base
 
   has_many :recipes
 
-begin
+  # Tests if User is unregisted by checking if email is empty
   def soft_user?
     if self.email.empty?
       true
@@ -15,6 +15,7 @@ begin
     end
   end
 
+  # Tests if user is registed by making sure email address is not empty
   def full_user?
     unless self.email.empty?
       true
@@ -22,7 +23,14 @@ begin
       false
     end
   end
-end
+
+  def needs_engagement?
+    recipes = Recipe.where(soft_user_token: self.soft_user_token)
+    if self.soft_user? && recipes.count > 2
+      true
+    end
+  end
+
 
 
 end
