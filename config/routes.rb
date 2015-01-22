@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  resources :ingredients
+
   devise_for :users, controllers: { registrations: "users/registrations" }
 
   resources :recipes
@@ -12,6 +14,7 @@ Rails.application.routes.draw do
    get 'pages/about'
 
    get '/search', to: 'recipes#search'
+   get '/adv_search', to: 'recipes#adv_search'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

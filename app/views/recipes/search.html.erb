@@ -1,8 +1,8 @@
-<% if @recipes.present? %>
+<% if @results.present? %>
 
-<% @recipes.each do |recipe| %>
+<% @results.each do |result| %>
 <div class="juice-container">
-  <h3><%= recipe.name %></h3>
+  <h3><%= result.name %></h3>
   <p>A subtle brew of carrots, beets, jicama, and ginger.</p>
 </div>
 
@@ -11,6 +11,7 @@
 <% else %>
 
 <p>"Oh snap, no Juice recipes we're found."</p>
+
 
 <p>Do you have a great Juice recipe Idea? Why not share it with your fellow Juicers?</p>
 
