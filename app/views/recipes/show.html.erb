@@ -7,8 +7,10 @@
 
 <p>
   <strong>User:</strong>
-  <%= @recipe.user %>
+  <%= @recipe.type_of_user %>
 </p>
+
+<%= image_tag attachment_url(@recipe, :recipe_image, :fit, 300, 300) %>
 
 <%= link_to 'Edit', edit_recipe_path(@recipe) %> |
 <%= link_to 'Back', recipes_path %>

@@ -15,11 +15,19 @@
     <%= f.label :name %><br>
     <%= f.text_field :name %>
   </div>
-  
+
   <div class="field">
     <%= f.label :body %><br>
     <%= f.text_field :body %>
   </div>
+
+  <div class="field">
+    <%= f.label :recipe_image %>
+    <%= f.attachment_field :recipe_image, direct: true %>
+  </div>
+
+  <div class="uploading">Image is Uploading...</div>
+  <div class="complete">Image Upload Complete</div>
 
   <div class="actions">
     <%= f.hidden_field :user_id %>

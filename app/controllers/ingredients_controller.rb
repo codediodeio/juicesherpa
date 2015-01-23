@@ -15,7 +15,7 @@ class IngredientsController < ApplicationController
 
   def new
     @ingredient = Ingredient.new
-    @results = @ingredient.search(params)
+    @results = @ingredient.filtered_search(params)
     respond_with(@ingredient)
   end
 
@@ -36,11 +36,6 @@ class IngredientsController < ApplicationController
   def destroy
     @ingredient.destroy
     respond_with(@ingredient)
-  end
-
-  def search
-    @ingredient = Ingredient.new
-    @results = @ingredient.search(params)
   end
 
   private

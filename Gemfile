@@ -30,6 +30,10 @@ gem 'nutritionix'
 # Figaro to keep API Keys Private
 gem "figaro"
 
+# Refile File Uploads
+gem "mini_magick"
+gem "refile", require: ["refile/rails", "refile/image_processing"]
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

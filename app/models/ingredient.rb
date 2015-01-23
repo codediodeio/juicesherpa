@@ -3,17 +3,16 @@ class Ingredient < ActiveRecord::Base
   validates :item_id, presence: true
 
   require "nutritionix/api_1_1"
-  # include ActiveModel::Serializers::JSON
 
-  # serialize :body
-
-
-  def get_nutrition_facts(query)
-
+  def provider
     app_id = Figaro.env.nutritionix_app_id
     app_key = Figaro.env.nutritionix_app_key
+    Nutritionix::Api_1_1.new(app_id, app_key)
+  end
 
-    provider = Nutritionix::Api_1_1.new(app_id, app_key)
+
+  def ingredient_search(query)
+
     search_params = {
       offset: 0,
       limit: 10,
@@ -23,27 +22,21 @@ class Ingredient < ActiveRecord::Base
       },
       query: query
     }
+
     results_json = provider.nxql_search(search_params)
     JSON.parse(results_json)
   end
 
-  def search(params)
-    hash = get_nutrition_facts(params[:keyword]) # Get the full hash
+  def filtered_search(params)
+    hash = ingredient_search(params[:keyword]) # Get the full hash
     if hash.key?("hits")
        hash.fetch("hits") # Fetch Hits
     end
   end
 
   def get_item(id)
-
-    app_id = Figaro.env.nutritionix_app_id
-    app_key = Figaro.env.nutritionix_app_key
-
-    provider = Nutritionix::Api_1_1.new(app_id, app_key)
-
     results_json = provider.get_item(id)
-    results_hash = JSON.parse(results_json)
-    results_hash
+    JSON.parse(results_json)
   end
 
 

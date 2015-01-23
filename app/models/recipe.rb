@@ -4,6 +4,8 @@ class Recipe < ActiveRecord::Base
 
   validates :name, presence: true
 
+  attachment :recipe_image
+
 
 
   # Search Method
