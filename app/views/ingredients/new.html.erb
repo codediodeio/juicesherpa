@@ -1,5 +1,37 @@
-<h1>New Ingredient</h1>
+<h2>Find New Ingredients</h2>
 
-<%= render 'form' %>
+<div class="fields">
+  <%= form_tag(new_ingredient_path, method: :get ) do %>
+  <%= text_field_tag :keyword, nil, placeholder: "Find More Ingredients..." %>
+  <%= submit_tag "Find Ingredients", class: "button-default" %>
+  <% end %>
+</div>
+
+
+<ul>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Item Name</th>
+        <th>Description</th>
+        <th>Calories</th>
+        <th colspan="3"></th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <% if @results.present? %>
+      <% @results.map do |i| %>
+      <tr>
+        <td><%= i["fields"]["item_name"] %></td>
+        <td><%= i["fields"]["item_description"] %></td>
+        <td><%= i["fields"]["nf_calories"] %></td>
+        <td><%= link_to "Add Ingredient", { action: :create, ingredient: { name: i["fields"]["item_name"], item_id: i["fields"]["item_id"] } }, method: :post %></td>
+      </tr>
+      <% end %>
+      <% end %>
+    </tbody>
+  </table>
 
 <%= link_to 'Back', ingredients_path %>

@@ -1,10 +1,9 @@
 Rails.application.routes.draw do
 
-  resources :ingredients
-
   devise_for :users, controllers: { registrations: "users/registrations" }
 
   resources :recipes
+  resources :ingredients
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
@@ -14,7 +13,8 @@ Rails.application.routes.draw do
    get 'pages/about'
 
    get '/search', to: 'recipes#search'
-   get '/adv_search', to: 'recipes#adv_search'
+   get '/isearch', to: 'ingredients#search'
+
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

@@ -1,4 +1,13 @@
 <p id="notice"><%= notice %></p>
 
+<h2><%= @ingredient.name %></h2>
+<p><%= @ingredient.body %></p>
+
+<h2>Nutrition Facts</h2>
+
+Calories: <%= @facts["usda_fields"]["ENERC_KCAL"]["value"].round(2) %>
+
+
+
 <%= link_to 'Edit', edit_ingredient_path(@ingredient) %> |
 <%= link_to 'Back', ingredients_path %>

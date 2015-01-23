@@ -1,0 +1,33 @@
+<h2>Search for More Ingredients</h2>
+
+<div ="fields">
+  <%= form_tag(isearch_path, method: :get ) do %>
+  <%= text_field_tag :keyword, nil, placeholder: "Find More Ingredients..." %>
+  <%= submit_tag %>
+  <% end %>
+</div>
+
+
+<ul>
+
+  <table>
+    <thead>
+      <tr>
+        <th colspan="3">Item Name</th>
+        <th colspan="3">Description</th>
+        <th colspan="3">Calories</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <% if @results.present? %>
+      <% @results.map do |i| %>
+      <tr>
+        <td><%= i["fields"]["item_name"] %></td>
+        <td><%= i["fields"]["item_description"] %></td>
+        <td><%= i["fields"]["nf_calories"] %></td>
+      </tr>
+      <% end %>
+      <% end %>
+    </tbody>
+  </table>

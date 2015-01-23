@@ -24,6 +24,12 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Devise for User Registrations
 gem 'devise'
 
+# Nutritionix API
+gem 'nutritionix'
+
+# Figaro to keep API Keys Private
+gem "figaro"
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

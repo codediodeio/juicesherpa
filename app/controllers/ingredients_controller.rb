@@ -9,11 +9,13 @@ class IngredientsController < ApplicationController
   end
 
   def show
+    @facts = @ingredient.get_item(@ingredient.item_id)
     respond_with(@ingredient)
   end
 
   def new
     @ingredient = Ingredient.new
+    @results = @ingredient.search(params)
     respond_with(@ingredient)
   end
 
@@ -36,12 +38,17 @@ class IngredientsController < ApplicationController
     respond_with(@ingredient)
   end
 
+  def search
+    @ingredient = Ingredient.new
+    @results = @ingredient.search(params)
+  end
+
   private
     def set_ingredient
       @ingredient = Ingredient.find(params[:id])
     end
 
     def ingredient_params
-      params[:ingredient]
+      params.require(:ingredient).permit(:name, :body, :item_id)
     end
 end
