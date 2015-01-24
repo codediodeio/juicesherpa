@@ -1,7 +1,7 @@
 class IngredientsController < ApplicationController
   before_action :set_ingredient, only: [:show, :edit, :update, :destroy]
 
-  respond_to :html
+  respond_to :html, :js
 
   def index
     @ingredients = Ingredient.all

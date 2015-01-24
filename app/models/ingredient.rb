@@ -13,6 +13,10 @@ class Ingredient < ActiveRecord::Base
 
   def ingredient_search(query)
 
+  #  app_id = Figaro.env.nutritionix_app_id
+  #  app_key = Figaro.env.nutritionix_app_key
+  #  provider = Nutritionix::Api_1_1.new(app_id, app_key)
+
     search_params = {
       offset: 0,
       limit: 10,
