@@ -8,4 +8,5 @@ $(document).on("upload:start", "form", function(e) {
 $(document).on("upload:success", "form", function(e) {
   $('.complete').show();
   $('.uploading').hide();
+  $('.image').show();
 });

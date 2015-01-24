@@ -1,0 +1,5 @@
+$(document).on("upload:success", "form", function(e) {
+
+  $(".image").html("<%= escape_javascript(image_tag attachment_url(@recipe, :recipe_image, :crop, 150, 150)) %>");
+
+});
