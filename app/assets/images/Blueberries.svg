@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="240px" height="240px" viewBox="0 0 240 240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>Blueberries</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Blueberries" sketch:type="MSArtboardGroup">
+            <circle id="Oval-89" stroke="#254973" stroke-width="10" fill="#43578D" sketch:type="MSShapeGroup" cx="83" cy="137" r="51"></circle>
+            <path d="M134,138 C162.166522,138 185,115.166522 185,87 C185,58.8334778 162.166522,36 134,36 C105.833478,36 83,58.8334778 83,87 C83,115.166522 105.833478,138 134,138 Z" id="Oval-90" stroke="#254973" stroke-width="10" fill="#7596F2" sketch:type="MSShapeGroup"></path>
+            <circle id="Oval-91" stroke="#254973" stroke-width="10" fill="#5B76C0" sketch:type="MSShapeGroup" cx="157" cy="153" r="51"></circle>
+            <polygon id="Star-1" fill="#264973" sketch:type="MSShapeGroup" points="134 78.0404003 127.491744 81.514533 126.150099 74.2600872 119.376081 71.337814 124.211334 65.7658008 122.272528 58.647653 129.643634 58.9539119 134 53 138.356366 58.9539119 145.727472 58.647653 143.788666 65.7658008 148.623919 71.337814 141.849901 74.2600872 140.508256 81.514533 "></polygon>
+            <polygon id="Star-2" fill="#264973" sketch:type="MSShapeGroup" points="158 163.0404 151.491744 166.514533 150.150099 159.260087 143.376081 156.337814 148.211334 150.765801 146.272528 143.647653 153.643634 143.953912 158 138 162.356366 143.953912 169.727472 143.647653 167.788666 150.765801 172.623919 156.337814 165.849901 159.260087 164.508256 166.514533 "></polygon>
+            <polygon id="Star-3" fill="#264973" sketch:type="MSShapeGroup" points="68 152.0404 61.4917439 155.514533 60.150099 148.260087 53.3760813 145.337814 58.2113335 139.765801 56.2725278 132.647653 63.6436336 132.953912 68 127 72.3563664 132.953912 79.7274722 132.647653 77.7886665 139.765801 82.6239187 145.337814 75.849901 148.260087 74.5082561 155.514533 "></polygon>
+        </g>
+    </g>
+</svg>

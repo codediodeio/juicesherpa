@@ -1,19 +1,41 @@
+<div class="nav-container">
 <nav>
   <ul>
-      <li class="nav-logo">JS-LOGO</li>
+      <li class="nav-logo"><%= image_tag("JuiceSherpa-Logo.svg", height: "40") %></li>
       <div class="nav-right">
         <li><%= link_to 'Home', root_path %></li>
         <li><%= link_to 'About', pages_about_path %></li>
-        <li class="dropdown"><%= link_to 'Explore', '#' %></li>
-        <li><span class="search-button"><a href="#search">s</a></span></li>
+        <li class="explore"><%= link_to 'Explore', '#' %></li>
+        <li class="user-menu"><span class="menu-icon"><a href="#">f</a></span></li>
+        <li><span class="menu-icon"><%= link_to '(', new_recipe_path %></span></li>
+        <li class="search-button"><span class="menu-icon"><a href="#search">s</a></span></li>
       </div>
   </ul>
 </nav>
+</div>
 
 <nav class="nav-second">
   <ul>
-      <li><%= link_to 'Carrots', root_path %></li>
-      <li><%= link_to 'Beets', root_path %></li>
-      <li><%= link_to 'Jicama', root_path %></li>
+      <li><%= link_to 'Carrots', search_path(keyword: "carrot") %></li>
+      <li><%= link_to 'Beets', search_path(keyword: "beet") %></li>
+      <li><%= link_to 'Jicama', search_path(keyword: "jicama") %></li>
+      <li><%= link_to 'Strawberry', search_path(keyword: "strawberry") %></li>
+      <li><%= link_to 'Ginger', search_path(keyword: "ginger") %></li>
+      <li><%= link_to 'Tomato', search_path(keyword: "tomato") %></li>
+      <li><%= link_to 'Strawberry', search_path(keyword: "kale") %></li>
+  </ul>
+</nav>
+
+<nav class="nav-third">
+  <ul>
+    <div class="nav-right">
+      <% if current_user.soft_user? %>
+      <li><%= link_to 'Sign In', new_user_session_path %></li>
+      <li><%= link_to 'Sign Up', new_user_registration_path %></li>
+      <% else %>
+      <li><%= link_to 'Edit Profile', edit_user_registration_path %></li>
+      <li><%= link_to 'Sign Out', destroy_user_session_path, method: :delete %></li>
+      <% end %>
+    </div>
   </ul>
 </nav>

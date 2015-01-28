@@ -13,7 +13,6 @@ Rails.application.routes.draw do
    get 'pages/about'
 
    get '/search', to: 'recipes#search'
-   get '/isearch', to: 'ingredients#search'
 
 
   # Example of regular route:

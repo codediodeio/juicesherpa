@@ -1,16 +1,38 @@
+<% content_for :title, @recipe.name %>
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Name:</strong>
-  <%= @recipe.name %>
-</p>
 
-<p>
-  <strong>User:</strong>
-  <%= @recipe.type_of_user %>
-</p>
+<h1><%= @recipe.name %></h1>
 
-<%= image_tag attachment_url(@recipe, :recipe_image, :fit, 300, 300) %>
+<p>Created by <strong><%= @recipe.type_of_user %></strong></p>
 
-<%= link_to 'Edit', edit_recipe_path(@recipe) %> |
-<%= link_to 'Back', recipes_path %>
+<p><%= @recipe.body %></p>
+
+<h2>Recipe Ingredients</h2>
+
+<% @recipe.ingredients.each do |i| %>
+
+<div class="ingredient-list">
+  <div class="ingredient-image">
+    <%= image_tag(get_image(i.name), width: "75") %>
+  </div>
+  <%= i.name %>
+</div>
+<% end %>
+
+<h2>Nutritional Analysis</h2>
+
+<div class="facts-container">
+
+<% unless @facts[0].has_key?("error") %>
+
+   <%= render 'nutrition' %>
+
+   <% else %>
+
+   <p> Sorry, it looks like we've maxed out the API requests for the day. </p>
+
+   <% end %>
+
+
+</div>

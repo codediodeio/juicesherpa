@@ -1,7 +1,14 @@
 $( document ).ready(function() {
 
-  $(".dropdown").on("click", function(){
-    $(".nav-second").animate({ width:'toggle' },250)
+  $(".explore").on("click", function(){
+    $(".nav-second").animate({ width:'toggle' },300)
+    $(".nav-third").hide();
   });
+
+  $(".user-menu").on("click", function(){
+    $(".nav-third").animate({ width:'toggle' },300)
+    $(".nav-second").hide();
+  });
+
 
 });

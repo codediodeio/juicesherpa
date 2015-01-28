@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="240px" height="240px" viewBox="0 0 240 240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>Pineapple</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Pineapple" sketch:type="MSArtboardGroup">
+            <g id="Group" sketch:type="MSLayerGroup" transform="translate(118.856602, 120.080548) rotate(-315.000000) translate(-118.856602, -120.080548) translate(57.856602, -1.919452)">
+                <ellipse id="Oval-43" fill="#7ED321" sketch:type="MSShapeGroup" cx="61.5" cy="43" rx="9.5" ry="42"></ellipse>
+                <ellipse id="Oval-45" fill="#417505" sketch:type="MSShapeGroup" cx="73.1204339" cy="69.3712584" rx="8.10875721" ry="20.6013979"></ellipse>
+                <path d="M78.7642786,35.6815748 C82.6426373,37.9207463 81.1748883,47.7237907 75.4859694,57.5772874 C69.7970504,67.430784 62.0412394,73.6034142 58.1628807,71.3642427 C54.2845219,69.1250712 55.752271,59.3220268 61.4411899,49.4685302 C67.1301088,39.6150335 74.8859198,33.4424034 78.7642786,35.6815748 Z" id="Oval-47" fill="#417505" sketch:type="MSShapeGroup"></path>
+                <path d="M63.4679544,37.0957884 C67.3463132,39.3349599 65.8785641,49.1380043 60.1896452,58.9915009 C54.5007263,68.8449976 46.7449153,75.0176278 42.8665565,72.7784563 C38.9881978,70.5392848 40.4559468,60.7362404 46.1448657,50.8827437 C51.8337847,41.0292471 59.5895957,34.8566169 63.4679544,37.0957884 Z" id="Oval-48" fill="#417505" sketch:type="MSShapeGroup" transform="translate(53.167255, 54.937122) scale(-1, 1) translate(-53.167255, -54.937122) "></path>
+                <ellipse id="Oval-46" fill="#417505" sketch:type="MSShapeGroup" cx="48.7169978" cy="69.3712584" rx="8.10875721" ry="20.6013979"></ellipse>
+                <path d="M60,243.582474 C106.542969,243.582474 121.435426,166.074754 121.435426,125.481825 C121.435426,84.8888955 89.2710917,89.9726563 60,89.9726563 C30.7289083,89.9726563 0.30195713,92.0555084 0.30195713,132.648438 C0.30195713,173.241367 13.4570313,243.582474 60,243.582474 Z" id="Oval-63" stroke="#F6A623" stroke-width="10" fill="#F6E949" sketch:type="MSShapeGroup"></path>
+            </g>
+            <polygon id="Triangle-1" fill="#F6A623" sketch:type="MSShapeGroup" transform="translate(54.500000, 150.000000) rotate(-135.000000) translate(-54.500000, -150.000000) " points="54.5 135 63 165 46 165 "></polygon>
+            <polygon id="Triangle-5" fill="#F6A623" sketch:type="MSShapeGroup" transform="translate(92.878645, 137.639052) rotate(-135.000000) translate(-92.878645, -137.639052) " points="92.8786447 121.123441 101.194509 154.154664 84.5627807 154.154664 "></polygon>
+            <polygon id="Triangle-2" fill="#F6A623" sketch:type="MSShapeGroup" transform="translate(129.000000, 120.080548) rotate(-135.000000) translate(-129.000000, -120.080548) " points="129 108.230977 135.47825 131.930118 122.52175 131.930118 "></polygon>
+            <polygon id="Triangle-4" fill="#F6A623" sketch:type="MSShapeGroup" transform="translate(123.396876, 153.657283) rotate(-135.000000) translate(-123.396876, -153.657283) " points="123.396876 141.807713 129.875126 165.506854 116.918625 165.506854 "></polygon>
+            <polygon id="Triangle-6" fill="#F6A623" sketch:type="MSShapeGroup" transform="translate(105.896876, 183.576736) rotate(-135.000000) translate(-105.896876, -183.576736) " points="105.896876 171.727165 112.375126 195.426306 99.4186254 195.426306 "></polygon>
+            <polygon id="Triangle-7" fill="#F6A623" sketch:type="MSShapeGroup" transform="translate(71.117009, 183.576736) rotate(-135.000000) translate(-71.117009, -183.576736) " points="71.1170094 171.727165 77.5952595 195.426306 64.6387593 195.426306 "></polygon>
+            <polygon id="Triangle-3" fill="#F6A623" sketch:type="MSShapeGroup" transform="translate(97.088371, 106.731769) rotate(-135.000000) translate(-97.088371, -106.731769) " points="97.0883709 95.1659051 104.40053 118.297633 89.7762113 118.297633 "></polygon>
+        </g>
+    </g>
+</svg>

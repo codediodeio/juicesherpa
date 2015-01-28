@@ -8,4 +8,7 @@ module ApplicationHelper
     end
   end
 
+  def explore(topic)
+  end
+
 end

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="283px" height="69px" viewBox="0 0 283 69" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="JuiceSherpaHome" sketch:type="MSArtboardGroup" transform="translate(-15.000000, -13.000000)">
+            <g id="Group" sketch:type="MSLayerGroup" transform="translate(13.000000, 13.000000)">
+                <g id="Body" transform="translate(109.000000, 21.000000)" sketch:type="MSShapeGroup">
+                    <path d="M18.5,39.7564858 C28.7172679,39.7564858 37,25.8075744 37,16.6792453 C37,7.55091621 28.7172679,0.150943396 18.5,0.150943396 C8.28273213,0.150943396 0,7.55091621 0,16.6792453 C0,25.8075744 8.28273213,39.7564858 18.5,39.7564858 Z" fill="#FFFFFF"></path>
+                    <ellipse id="BodyTop" fill="#FC5555" cx="18.6497976" cy="7.01886792" rx="13.5566802" ry="7.01886792"></ellipse>
+                    <path d="M16.8471968,30.1642099 C16.8471968,30.1642099 12.4634149,34.1842895 12.4334348,36.4513561 C12.4034546,38.7184228 15.2325516,37.1951721 16.7170016,40.009434 C18.2014516,42.8236959 18.5186685,47.9879127 18.5186685,47.9879127 C18.5186685,47.9879127 21.8474115,42.9322862 21.5146199,39.8918042 C21.1818283,36.8513223 17.0723499,38.3687788 17.1593726,35.5689858 C17.2463953,32.7691929 21.839669,29.4339623 21.839669,29.4339623 L16.8471968,30.1642099 Z" id="Path-1" fill="#FFFFFF"></path>
+                </g>
+                <g id="Head" transform="translate(105.000000, 0.000000)" fill="#FFFFFF" sketch:type="MSShapeGroup">
+                    <path d="M24.0145058,12.4444444 C27.8783911,12.4444444 38.9296567,9.02854291 38.9296567,4.81481481 C38.9296567,0.601086724 32.606862,0 28.7429767,0 C24.8790914,0 17.0183226,0.601086724 17.0183226,4.81481481 C17.0183226,9.02854291 20.1506205,12.4444444 24.0145058,12.4444444 Z" id="Oval-6"></path>
+                    <ellipse id="Oval-7" cx="25.0820611" cy="12.4444444" rx="2.90267176" ry="7.40740741"></ellipse>
+                    <path d="M15.2099535,20.6070602 C17.6274963,23.6242009 16.7754199,22.5049688 18.6871124,25.5028935 C20.5988048,28.5008182 20.1076306,32.6377315 22.3892981,31.8657407 C24.6709655,31.09375 23.0725191,20.207511 23.0725191,15.1851852 C23.0725191,8.59867817 20.240122,3.25925926 16.7461832,3.25925926 C13.2522444,3.25925926 10.4198473,8.59867817 10.4198473,15.1851852 C10.4198473,17.82044 12.7924106,17.5899195 15.2099535,20.6070602 Z" id="BottomLeaf" stroke="#FC5555" stroke-width="0.9"></path>
+                    <path d="M11.5996392,16.720727 C17.4776775,16.720727 21.360687,13.822836 21.360687,9.51972386 C21.360687,5.21661174 16.5955955,1.72825013 10.7175573,1.72825013 C4.83951899,1.72825013 0.0744274809,5.21661174 0.0744274809,9.51972386 C0.0744274809,13.822836 5.72160093,16.720727 11.5996392,16.720727 Z" id="TopLeaf"></path>
+                </g>
+                <text id="SHERPA" sketch:type="MSTextLayer" font-family="NeoRetroFill" font-size="33.75" font-weight="normal" letter-spacing="-0.759375" fill="#FFFFFF">
+                    <tspan x="146" y="56">SHERPA</tspan>
+                </text>
+                <text id="Juice" sketch:type="MSTextLayer" font-family="NeoRetroFill" font-size="33.75" font-weight="normal" letter-spacing="-0.675" fill="#FFFFFF">
+                    <tspan x="0" y="56">JUICE</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

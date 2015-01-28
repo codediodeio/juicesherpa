@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="240px" height="240px" viewBox="0 0 240 240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>Jicama</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Jicama" sketch:type="MSArtboardGroup">
+            <path d="M140.331591,74.6390274 C181.385958,78.9233725 212,96.4479838 212,128.5 C212,165.779221 170.586339,186.398438 119.5,186.398438 C68.4136606,186.398438 27,165.779221 27,128.5 C27,96.4479838 57.6140424,78.9233725 98.6684091,74.6390274 C102.594697,62.4925358 110.44992,50.7800415 119.5,50.7800415 C128.55008,50.7800415 136.405303,62.4925358 140.331591,74.6390274 Z" id="Oval-72" stroke="#DEB28B" stroke-width="10" fill="#ECBB6A" sketch:type="MSShapeGroup"></path>
+            <path d="M77.5,164 C100.972102,164 120,160.642136 120,156.5 C120,152.357864 100.972102,149 77.5,149 C54.0278981,149 35,152.357864 35,156.5 C35,160.642136 54.0278981,164 77.5,164 Z" id="Oval-74" fill="#DEB28B" sketch:type="MSShapeGroup"></path>
+            <path d="M174.5,131 C197.972102,131 217,127.642136 217,123.5 C217,119.357864 197.972102,116 174.5,116 C151.027898,116 132,119.357864 132,123.5 C132,127.642136 151.027898,131 174.5,131 Z" id="Oval-75" fill="#DEB28B" sketch:type="MSShapeGroup"></path>
+            <path d="M70.5,99 C88.4492544,99 103,96.3137085 103,93 C103,89.6862915 88.4492544,87 70.5,87 C52.5507456,87 38,89.6862915 38,93 C38,96.3137085 52.5507456,99 70.5,99 Z" id="Oval-76" fill="#DEB28B" sketch:type="MSShapeGroup"></path>
+        </g>
+    </g>
+</svg>

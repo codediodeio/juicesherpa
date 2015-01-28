@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="240px" height="240px" viewBox="0 0 240 240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>Celery</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Celery" sketch:type="MSArtboardGroup">
+            <g id="Rectangle-9-+-Oval-82" sketch:type="MSLayerGroup" transform="translate(120.000000, 120.000000) rotate(-315.000000) translate(-120.000000, -120.000000) translate(87.000000, 16.000000)">
+                <path d="M61.5253821,12.1885061 L61.5253821,15.4188876 C61.6333694,15.9166807 61.6957238,16.431118 61.7077251,16.9576196 L65.8694809,199.536314 C65.9701862,203.954313 62.4699392,207.535808 58.0518426,207.535808 L7.86634726,207.535808 C3.44807958,207.535808 -0.0203622135,203.962344 0.119934277,199.536314 L5.90732151,16.9576196 C5.92662698,16.3485764 6.01365214,15.7554302 6.16088984,15.1853721 L6.16088984,15.1853721 L6.16088984,12.0717484 L6.16088984,6.15572258 C6.16088984,-6.65022242 18.5546536,6.15572282 33.843136,6.15572282 C49.1316183,6.15572282 61.5253821,-6.65022242 61.5253821,6.15572258 L61.5253821,12.1885061 Z" id="Rectangle-9" stroke="#B8E986" stroke-width="10" fill="#7ED321" sketch:type="MSShapeGroup"></path>
+                <ellipse id="Oval-82" fill="#5DA609" sketch:type="MSShapeGroup" cx="39" cy="108" rx="6" ry="89"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>

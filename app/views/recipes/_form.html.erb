@@ -1,4 +1,4 @@
-<%= form_for(@recipe) do |f| %>
+<%= form_for @recipe do |f| %>
   <% if @recipe.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@recipe.errors.count, "error") %> prohibited this recipe from being saved:</h2>
@@ -12,26 +12,34 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :name %><br>
+    <%= f.label :name, "Give your Juice Recipe a Name" %><br>
     <%= f.text_field :name %>
   </div>
 
   <div class="field">
-    <%= f.label :body %><br>
-    <%= f.text_field :body %>
+    <%= f.label :body, "What's Special about this Juice?" %><br>
+    <%= f.text_area :body %>
   </div>
 
-  <div class="field">
-    <%= f.label :recipe_image %>
-    <%= f.attachment_field :recipe_image, direct: true %>
-  </div>
+  <h2>Choose Ingredients</h2>
 
-  <div class="uploading">Image is Uploading...</div>
-  <div class="complete">Image Upload Complete</div>
-  <div class="image"></div>
+<% @ingredients.each do |i| %>
+
+<div class="ingredient-list">
+  <div class="ingredient-image">
+    <%= image_tag(get_image(i.name), width: "75") %>
+  </div>
+    <%= check_box_tag "ingredients[]", i.id %>
+    <%= i.name %>
+</div>
+
+
+<% end %>
 
   <div class="actions">
     <%= f.hidden_field :user_id %>
-    <%= f.submit %>
+    <%= f.submit class: "button-default" %>
   </div>
+
+
 <% end %>

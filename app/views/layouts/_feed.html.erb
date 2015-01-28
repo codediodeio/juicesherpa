@@ -1,0 +1,29 @@
+<h2>My Juice Recipes</h2>
+
+<% if current_user.recipes.present? %>
+<% current_user.recipes.each do |recipe| %>
+
+<div class="juice-container">
+  <h3><%= link_to recipe.name, recipe %></h3>
+  <p><%= truncate(recipe.body, lenght: 50) %></p>
+</div>
+
+<% end %>
+<% else %>
+
+<p>It looks like you haven't created any Juices yet, why not give it a try? It's fun stuff!</p>
+
+<%= button_to "Create Recipe", new_recipe_path, class: "button-default", method: :get %>
+
+<% end %>
+
+<h2>Popular Juices</h2>
+
+<% @recipes.each do |recipe| %>
+
+<div class="juice-container">
+  <h3><%= link_to recipe.name, recipe %></h3>
+  <p><%= truncate(recipe.body, length: 50) %></p>
+</div>
+
+<% end %>

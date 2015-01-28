@@ -9,10 +9,12 @@ class RecipesController < ApplicationController
   end
 
   def show
+    @facts = @recipe.calc
     respond_with(@recipe)
   end
 
   def new
+    @ingredients = Ingredient.all
     @recipe = Recipe.new
     respond_with(@recipe)
   end
@@ -21,17 +23,19 @@ class RecipesController < ApplicationController
   end
 
   def create
+
     if current_user.soft_user?
-      @user = current_user
-      @recipe = @user.recipes.new(recipe_params)
-      @recipe.soft_user_token = current_user.soft_user_token
-      @recipe.save
-      respond_with(@recipe)
-    else
       @recipe = Recipe.new(recipe_params)
-      @recipe.save
-      respond_with(@recipe)
+      @recipe.soft_user_token = current_user.soft_user_token
+    else
+      @user = current_user
+      @recipe = @user.recipes.build(recipe_params)
     end
+
+    @ingredients = Ingredient.find(params[:ingredients])
+    @recipe.ingredients = @ingredients
+    @recipe.save
+    respond_with(@recipe)
   end
 
   def update

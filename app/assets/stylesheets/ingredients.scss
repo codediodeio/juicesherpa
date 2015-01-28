@@ -8,3 +8,18 @@
 #item-table {
 
 }
+
+.ingredient-image {
+  width: 100px;
+  min-width: 75px;
+  min-height: 75px;
+  text-align: center;
+  display: block;
+
+  img {
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+}

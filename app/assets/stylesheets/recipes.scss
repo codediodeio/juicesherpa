@@ -8,3 +8,124 @@
 .complete{
   display:none;
 }
+
+.add-ingredient{
+
+}
+
+.ingredient-list{
+  width: 15%;
+  display: inline-block;
+  border: thin dashed #FEACAC;
+  padding: 5px;
+  margin: 5px;
+  min-width: 100px;
+  text-align: center;
+
+}
+
+.facts-container {
+  clear: both;
+  display: block;
+  width: 100%;
+}
+
+.nutrition-facts {
+  border: 1px solid black;
+  margin: 20px;
+  float: none;
+  width: auto;
+  min-width: 50%;
+  padding: 0.5rem;
+  table {
+    border-collapse: collapse;
+  }
+}
+.nutrition-title {
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 0 0 0.25rem 0;
+}
+.nutrition-header {
+  border-bottom: 10px solid black;
+  padding: 0 0 0.25rem 0;
+  margin: 0 0 0.5rem 0;
+  p {
+    margin: 0;
+  }
+}
+.nutrition-table {
+  width: 100%;
+  thead tr {
+    th, td {
+      border: 0;
+    }
+  }
+  th, td {
+    font-weight: normal;
+    text-align: left;
+    padding: 0.25rem 0;
+    border-top: 1px solid black;
+  }
+  td {
+    &:last-child {
+      text-align: right;
+    }
+  }
+  .blank-cell {
+    width: 1rem;
+    border-top: 0;
+  }
+  .thick-row {
+    th, td {
+      border-top-width: 5px;
+    }
+  }
+}
+.small-info {
+  font-size: 0.7rem;
+}
+
+.small-table {
+  @extend .nutrition-table;
+  border-bottom: 1px solid #999;
+  margin: 0 0 0.5rem 0;
+  thead {
+    tr {
+      border-bottom: 1px solid black;
+    }
+  }
+  td {
+    &:last-child {
+      text-align: left;
+    }
+  }
+  th, td {
+    border: 0;
+    padding: 0;
+  }
+}
+
+.grid-table {
+  @extend .nutrition-table;
+  margin: 0 0 0.5rem 0;
+  td {
+    &:last-child {
+      text-align: left;
+      &::before {
+        font-weight: bold;
+        margin: 0 0.25rem 0 0;
+      }
+    }
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+.thick-end {
+  border-bottom: 10px solid black;
+}
+.thin-end {
+  border-bottom: 1px solid black;
+}

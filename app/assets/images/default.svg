@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="240px" height="240px" viewBox="0 0 240 240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>Default</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Default" sketch:type="MSArtboardGroup">
+            <path d="M120,199.378906 C166.944204,199.378906 205,164.971547 205,118.027344 C205,71.08314 166.944204,40.6210938 120,40.6210938 C73.0557963,40.6210938 35,71.08314 35,118.027344 C35,164.971547 73.0557963,199.378906 120,199.378906 Z" id="Oval-92" stroke="#50E3C2" stroke-width="10" fill="#B8E986" sketch:type="MSShapeGroup"></path>
+            <text id="?" sketch:type="MSTextLayer" font-family="Ubuntu" font-size="150" font-weight="normal" fill="#FFFFFF">
+                <tspan x="93" y="175.621094">?</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

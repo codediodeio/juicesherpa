@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="240px" height="240px" viewBox="0 0 240 240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>Cucumber</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Cucumber" sketch:type="MSArtboardGroup">
+            <g id="Group" sketch:type="MSLayerGroup" transform="translate(120.000000, 120.000000) rotate(-315.000000) translate(-120.000000, -120.000000) translate(87.000000, 13.000000)">
+                <path d="M1.84748354,169.930171 C-1.09192131,195.54003 0.191862112,214 28.4649172,214 C64.4299061,214 65,166.094468 65,107 C65,47.9055318 60.075577,0 28.4649172,0 C1.62850483,0 4.84748354,42 4.84748354,42 C4.84748354,42 8.78688825,98.0747952 8.78688825,107 C8.78688825,119.638701 4.7868884,144.320312 1.84748354,169.930171 Z" id="Oval-83" stroke="#417505" stroke-width="10" fill="#559609" sketch:type="MSShapeGroup"></path>
+                <circle id="Oval-84" fill="#B8E986" sketch:type="MSShapeGroup" cx="40" cy="62" r="5"></circle>
+                <circle id="Oval-85" fill="#B8E986" sketch:type="MSShapeGroup" cx="45" cy="107" r="5"></circle>
+                <circle id="Oval-86" fill="#B8E986" sketch:type="MSShapeGroup" cx="31" cy="188" r="5"></circle>
+                <circle id="Oval-87" fill="#B8E986" sketch:type="MSShapeGroup" cx="28" cy="21" r="5"></circle>
+                <circle id="Oval-88" fill="#B8E986" sketch:type="MSShapeGroup" cx="18" cy="152" r="5"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

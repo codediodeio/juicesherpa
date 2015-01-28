@@ -89,6 +89,15 @@ a {
     border-right: none;
     border-left: none;
     border-bottom: thin dashed;
+    width: 50%;
+  }
+
+  textarea {
+    font-size: 125%;
+    outline: none;
+    border: thin dashed;
+    width: 50%;
+    height: 150px;
   }
 }
 

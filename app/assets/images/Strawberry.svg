@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="240px" height="240px" viewBox="0 0 240 240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>Strawberry</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Strawberry" sketch:type="MSArtboardGroup">
+            <ellipse id="Oval-43" fill="#417505" sketch:type="MSShapeGroup" cx="118.5" cy="47.5" rx="12.5" ry="34.5"></ellipse>
+            <ellipse id="Oval-45" fill="#417505" sketch:type="MSShapeGroup" transform="translate(138.500000, 56.500000) scale(1, -1) rotate(-45.000000) translate(-138.500000, -56.500000) " cx="138.5" cy="56.5" rx="12.5" ry="34.5"></ellipse>
+            <ellipse id="Oval-46" fill="#417505" sketch:type="MSShapeGroup" transform="translate(99.500000, 56.500000) rotate(-45.000000) translate(-99.500000, -56.500000) " cx="99.5" cy="56.5" rx="12.5" ry="34.5"></ellipse>
+            <path d="M120.5,226 C155.017797,226 183,170.561377 183,130.796875 C183,91.032373 155.017797,88.7421875 120.5,88.7421875 C85.9822031,88.7421875 58,91.032373 58,130.796875 C58,170.561377 85.9822031,226 120.5,226 Z" id="Oval-52" stroke="#DA2844" stroke-width="10" fill="#FC5555" sketch:type="MSShapeGroup"></path>
+            <ellipse id="Oval-53" fill="#000000" sketch:type="MSShapeGroup" cx="102.5" cy="150" rx="3.5" ry="7"></ellipse>
+            <ellipse id="Oval-54" fill="#000000" sketch:type="MSShapeGroup" cx="124.5" cy="171" rx="3.5" ry="7"></ellipse>
+            <ellipse id="Oval-55" fill="#000000" sketch:type="MSShapeGroup" cx="168.5" cy="120" rx="3.5" ry="7"></ellipse>
+            <ellipse id="Oval-56" fill="#000000" sketch:type="MSShapeGroup" cx="142.5" cy="143" rx="3.5" ry="7"></ellipse>
+            <ellipse id="Oval-61" fill="#000000" sketch:type="MSShapeGroup" cx="117.5" cy="120" rx="3.5" ry="7"></ellipse>
+            <ellipse id="Oval-60" fill="#000000" sketch:type="MSShapeGroup" cx="79.5" cy="120" rx="3.5" ry="7"></ellipse>
+            <ellipse id="Oval-57" fill="#000000" sketch:type="MSShapeGroup" cx="86.5" cy="171" rx="3.5" ry="7"></ellipse>
+            <ellipse id="Oval-58" fill="#000000" sketch:type="MSShapeGroup" cx="117.5" cy="201" rx="3.5" ry="7"></ellipse>
+            <ellipse id="Oval-59" fill="#000000" sketch:type="MSShapeGroup" cx="149.5" cy="187" rx="3.5" ry="7"></ellipse>
+        </g>
+    </g>
+</svg>
