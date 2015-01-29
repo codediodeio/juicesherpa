@@ -33,7 +33,13 @@ class RecipesController < ApplicationController
       @user = current_user
       @recipe = @user.recipes.build(recipe_params)
     end
+
+    if params[:ingredients]
     @ingredients = Ingredient.find(params[:ingredients])
+    else
+      @ingredients = []
+    end
+
     @recipe.ingredients = @ingredients
     @recipe.save
     respond_with(@recipe)

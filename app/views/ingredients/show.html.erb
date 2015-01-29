@@ -3,11 +3,18 @@
 <p id="notice"><%= notice %></p>
 
 <h2><%= @ingredient.name %></h2>
+<div class="ingredient-image">
+  <%= image_tag(get_image(@ingredient.name), width: "125") %>
+</div>
 <p><%= @ingredient.body %></p>
 
 <h2>Nutrition Facts</h2>
 
-<% unless  @facts.nil? %>
+<% if @facts.empty? %>
+
+<p> Sorry, it looks like we've maxed out the API requests for the day. </p>
+
+<% else %>
 
 <%= render 'nutrition' %>
 

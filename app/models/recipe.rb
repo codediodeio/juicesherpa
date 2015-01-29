@@ -6,6 +6,7 @@ class Recipe < ActiveRecord::Base
   # Validations
 
   validates :name, presence: true, length: {minimum: 2, maximum: 30}
+  validates_presence_of :ingredients
 
   # Search Method
 

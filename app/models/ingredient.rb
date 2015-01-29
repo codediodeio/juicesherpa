@@ -41,7 +41,14 @@ class Ingredient < ActiveRecord::Base
 
   def get_item(id)
     results_json = provider.get_item(id)
-    JSON.parse(results_json)
+    hash = JSON.parse(results_json)
+    if hash.nil?
+      { }
+    elsif hash.has_key?("error")
+      { }
+    else
+      hash
+    end
   end
 
 

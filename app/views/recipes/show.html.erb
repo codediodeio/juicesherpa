@@ -25,7 +25,7 @@
 
 <div class="facts-container">
 
-<% if @facts.nil? || @facts[0].has_key?("error") %>
+<% if @facts.nil? || @facts[0].empty? || @facts[0].has_key?("error") %>
 
 <p> Sorry, it looks like we've maxed out the API requests for the day. </p>
 
