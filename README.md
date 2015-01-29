@@ -1,4 +1,4 @@
-# JuiceSherpa - Juice Recipes with Dynamic Nutrition Data
+# JuiceSherpa
 
 Juice Sherpa is a basic Rails that allows users to create juice recipes (yes, the juice you drink) and get live nutrition facts via the Nutritionix API.
 
@@ -8,17 +8,17 @@ Juice Sherpa is a basic Rails that allows users to create juice recipes (yes, th
 
 ## Versions
 
-Ruby 2.2.0
-Rails 4.2
-PostgreSQL
-Heroku
+- Ruby 2.2.0
+- Rails 4.2
+- PostgreSQL
+- Heroku
 
 
 ## Installation
 
-`git clone`
-`bundle install`
-`rake db:migrate`
+- `git clone`
+- `bundle install`
+- `rake db:migrate`
 
 
 ## Contributing
