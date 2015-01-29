@@ -1,13 +1,8 @@
 <% content_for :title, "Our Story" %>
-<h1>Sample Heading</h1>
+<h1>How it Works</h1>
 
-<p>About Us...</p>
+<p>JuiceSherpa allows juicers to create recipes for their favorite juice recipes and instantly receive a detailed nutritional analysis. Simply click the <span class="inline-icon">(</span> icon to bring up the recipe builder. Come up with a cool name for your recipe, then select the ingredients from the list. Click the "Create Juice" button and you'll get an instant nutritional analysis of your recipe. Have fun!</p>
 
-<% if current_user.full_user? %>
-
-<%= button_to "Sign Out", destroy_user_session_path, class: "button-default", method: :delete  %>
-
-<% end %>
 
 <% if current_user.needs_engagement? %>
 
@@ -19,5 +14,8 @@ It looks like you sure are enjoying this app, why not become a full memeber and 
 
 <% end %>
 
-<h2>Build Juice Recipes</h2>
-<p>Here's how it works... </p>
+<h2>Background Info</h2>
+<p>JuiceSherpa was developed in Seattle as a part of an educational programming series for <%= link_to "Code Diode", "http://codediode.io" %>. Although the app works, it is mainly designed as a demonstartion. In other words, don't expect much in the way of customer support.</p>
+
+<h2>Disclaimer</h2>
+<p>We are not responsible for any decisions you make with information obtained from this site. It is purely for fun and should not be taken seriously.</p>

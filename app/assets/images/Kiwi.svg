@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="240px" height="240px" viewBox="0 0 240 240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>Kiwi</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Kiwi" sketch:type="MSArtboardGroup">
+            <path d="M120,221 C164.735065,221 198.875,172.004617 198.875,116.5 C198.875,60.9953826 164.735065,20 120,20 C75.2649353,20 43.4296875,56.9953826 43.4296875,112.5 C43.4296875,168.004617 75.2649353,221 120,221 Z" id="Oval-140" stroke="#9A7970" stroke-width="10" fill="#7ED321" sketch:type="MSShapeGroup"></path>
+            <path d="M120,161 C131.59798,161 141,143.09139 141,121 C141,98.90861 131.59798,81 120,81 C108.40202,81 99,98.90861 99,121 C99,143.09139 108.40202,161 120,161 Z" id="Oval-141" fill="#B8E986" sketch:type="MSShapeGroup"></path>
+            <ellipse id="Oval-142" fill="#000000" sketch:type="MSShapeGroup" cx="85.5" cy="120" rx="10.5" ry="4"></ellipse>
+            <ellipse id="Oval-143" fill="#000000" sketch:type="MSShapeGroup" cx="157.5" cy="120" rx="10.5" ry="4"></ellipse>
+            <ellipse id="Oval-144" fill="#000000" sketch:type="MSShapeGroup" transform="translate(120.500000, 65.000000) rotate(-90.000000) translate(-120.500000, -65.000000) " cx="120.5" cy="65" rx="10.5" ry="4"></ellipse>
+            <ellipse id="Oval-145" fill="#000000" sketch:type="MSShapeGroup" transform="translate(120.500000, 174.000000) rotate(-90.000000) translate(-120.500000, -174.000000) " cx="120.5" cy="174" rx="10.5" ry="4"></ellipse>
+            <ellipse id="Oval-146" fill="#000000" sketch:type="MSShapeGroup" transform="translate(147.500000, 86.000000) rotate(-45.000000) translate(-147.500000, -86.000000) " cx="147.5" cy="86" rx="10.5" ry="4"></ellipse>
+            <ellipse id="Oval-149" fill="#000000" sketch:type="MSShapeGroup" transform="translate(92.500000, 153.000000) rotate(-45.000000) translate(-92.500000, -153.000000) " cx="92.5" cy="153" rx="10.5" ry="4"></ellipse>
+            <ellipse id="Oval-147" fill="#000000" sketch:type="MSShapeGroup" transform="translate(92.500000, 85.000000) scale(-1, 1) rotate(-45.000000) translate(-92.500000, -85.000000) " cx="92.5" cy="85" rx="10.5" ry="4"></ellipse>
+            <ellipse id="Oval-148" fill="#000000" sketch:type="MSShapeGroup" transform="translate(148.500000, 154.000000) scale(-1, 1) rotate(-45.000000) translate(-148.500000, -154.000000) " cx="148.5" cy="154" rx="10.5" ry="4"></ellipse>
+        </g>
+    </g>
+</svg>

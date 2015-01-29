@@ -4,6 +4,12 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
   before_action :configure_permitted_parameters, if: :devise_controller?
 
+  def authenticate_admin!
+    unless current_user.admin?
+      redirect_to root_url
+    end
+  end
+
   def authenticate_user!(*args)
     current_user.present? || super(*args)
   end

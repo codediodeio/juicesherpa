@@ -30,15 +30,15 @@
     <%= image_tag(get_image(i.name), width: "75") %>
   </div>
     <%= check_box_tag "ingredients[]", i.id %>
-    <%= i.name %>
+    <%= link_to i.name, i %>
 </div>
 
 
 <% end %>
 
   <div class="actions">
-    <%= f.hidden_field :user_id %>
-    <%= f.submit class: "button-default" %>
+<%= f.hidden_field :user_id %>
+<%= f.submit class: "button-default" %>
   </div>
 
 

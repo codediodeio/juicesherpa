@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="240px" height="240px" viewBox="0 0 240 240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>Lettuce</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Lettuce" sketch:type="MSArtboardGroup">
+            <circle id="Oval-89" fill="#B8E986" sketch:type="MSShapeGroup" transform="translate(129.500000, 101.500000) rotate(-180.000000) translate(-129.500000, -101.500000) " cx="129.5" cy="101.5" r="71.75"></circle>
+            <circle id="Oval-90" fill="#B8E986" sketch:type="MSShapeGroup" transform="translate(89.250000, 68.250000) rotate(-180.000000) translate(-89.250000, -68.250000) " cx="89.25" cy="68.25" r="51.75"></circle>
+            <circle id="Oval-91" fill="#B8E986" sketch:type="MSShapeGroup" transform="translate(162.250000, 68.250000) rotate(-180.000000) translate(-162.250000, -68.250000) " cx="162.25" cy="68.25" r="51.75"></circle>
+            <circle id="Oval-92" fill="#B8E986" sketch:type="MSShapeGroup" transform="translate(181.250000, 140.250000) rotate(-180.000000) translate(-181.250000, -140.250000) " cx="181.25" cy="140.25" r="51.75"></circle>
+            <circle id="Oval-93" fill="#B8E986" sketch:type="MSShapeGroup" transform="translate(109.500000, 171.750000) rotate(-180.000000) translate(-109.500000, -171.750000) " cx="109.5" cy="171.75" r="51.75"></circle>
+            <circle id="Oval-94" fill="#B8E986" sketch:type="MSShapeGroup" transform="translate(58.750000, 120.000000) rotate(-180.000000) translate(-58.750000, -120.000000) " cx="58.75" cy="120" r="51.75"></circle>
+            <path d="M119.150456,206.5 C122.973403,206.5 126.072515,167.312373 126.072515,118.971986 C126.072515,70.6315993 129.895462,33.5 126.072515,33.5 C122.249567,33.5 112.228398,70.6315993 112.228398,118.971986 C112.228398,167.312373 115.327509,206.5 119.150456,206.5 Z" id="Oval-95" fill="#7ED321" sketch:type="MSShapeGroup"></path>
+            <path d="M125.643818,168.405424 C125.643818,126.440701 129.261434,94.2064269 125.643818,94.2064269 C122.026202,94.2064269 112.543272,126.440701 112.543272,168.405424" id="Oval-97" fill="#7ED321" sketch:type="MSShapeGroup" transform="translate(119.897460, 169.297852) rotate(-45.000000) translate(-119.897460, -169.297852) "></path>
+            <path d="M120.303956,82.7969511 C120.303956,53.0951473 122.38396,30.2803636 120.303956,30.2803636 C118.223953,30.2803636 112.771598,53.0951473 112.771598,82.7969511" id="Oval-99" fill="#7ED321" sketch:type="MSShapeGroup" transform="translate(117.000000, 83.428594) rotate(-45.000000) translate(-117.000000, -83.428594) "></path>
+            <path d="M124.141285,119.098371 C124.141285,76.7009569 126.748427,44.1343212 124.141285,44.1343212 C121.534142,44.1343212 114.699985,76.7009569 114.699985,119.098371" id="Oval-98" fill="#7ED321" sketch:type="MSShapeGroup" transform="translate(120.000000, 120.000000) scale(-1, 1) rotate(-45.000000) translate(-120.000000, -120.000000) "></path>
+            <path d="M123.141285,179.098371 C123.141285,136.700957 125.748427,104.134321 123.141285,104.134321 C120.534142,104.134321 113.699985,136.700957 113.699985,179.098371" id="Oval-100" fill="#7ED321" sketch:type="MSShapeGroup" transform="translate(119.000000, 180.000000) scale(-1, 1) rotate(-45.000000) translate(-119.000000, -180.000000) "></path>
+        </g>
+    </g>
+</svg>

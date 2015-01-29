@@ -30,6 +30,10 @@ gem 'nutritionix'
 # Figaro to keep API Keys Private
 gem "figaro"
 
+# Pagination
+
+gem 'will_paginate', '~> 3.0.6'
+
 # Refile File Uploads
 # gem "mini_magick"
 # gem "refile", require: ["refile/rails", "refile/image_processing"]

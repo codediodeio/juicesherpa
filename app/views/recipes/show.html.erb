@@ -6,6 +6,7 @@
 
 <p>Created by <strong><%= @recipe.type_of_user %></strong></p>
 
+
 <p><%= @recipe.body %></p>
 
 <h2>Recipe Ingredients</h2>
@@ -34,5 +35,10 @@
 
    <% end %>
 
-
 </div>
+
+<% if authorize_user(@recipe) %>
+
+<%= button_to "Edit Recipe", edit_recipe_path(@recipe), method: :get, class: "button-cancel" %>
+
+<% end %>

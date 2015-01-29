@@ -1,15 +1,15 @@
 class Recipe < ActiveRecord::Base
+  # Associations
   belongs_to :user
   has_and_belongs_to_many :ingredients
 
+  # Validations
+
   validates :name, presence: true, length: {minimum: 2, maximum: 30}
-
-
 
   # Search Method
 
   def self.search(params)
-    #where("name ILIKE ?", "%#{params[:keyword]}%") ||
     where("name ILIKE ? OR body ILIKE ?", "%#{params[:keyword]}%", "%#{params[:keyword]}%")
   end
 

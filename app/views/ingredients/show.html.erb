@@ -1,3 +1,5 @@
+<% content_for :title, @ingredient.name %>
+
 <p id="notice"><%= notice %></p>
 
 <h2><%= @ingredient.name %></h2>
@@ -5,11 +7,14 @@
 
 <h2>Nutrition Facts</h2>
 
-<p>Calories: <%= @facts["usda_fields"]["ENERC_KCAL"]["value"].round(2) %></p>
-<p>Sugar: <%= @facts["usda_fields"]["SUGAR"]["value"].round(2) %>mg</p>
-<p>Vitamin C (DV%): <%= (@facts["nf_vitamin_c_dv"]*100).round.to_s + '%' %></p>
+<% unless  @facts.nil? %>
+
+<%= render 'nutrition' %>
+
+<% end %>
 
 
-
+<% if current_user.admin? %>
 <%= link_to 'Edit', edit_ingredient_path(@ingredient) %> |
+<% end %>
 <%= link_to 'Back', ingredients_path %>

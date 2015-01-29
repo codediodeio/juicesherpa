@@ -1,7 +1,7 @@
 <section class="nutrition-facts">
   <header class="nutrition-header">
-    <h1 class="nutrition-title"><%= @recipe.name %> Nutrition Facts</h1>
-    <p>Serving Size: Full Recipe
+    <h1 class="nutrition-title"><%= @ingredient.name %> Nutrition Facts</h1>
+    <p>Serving Size: <%= @facts["nf_serving_size_qty"] %> <%= @facts["nf_serving_size_unit"] %>
     </header>
     <table class="nutrition-table">
       <thead>
@@ -15,11 +15,11 @@
         <tr>
           <th colspan="2">
             <b>Calories</b>
-            <%= @recipe.calc_calories.round(2) %>
+            <%= @facts["nf_calories"].round(2) %>
           </th>
           <td>
             Calories from Fat
-            <%= @recipe.calc_cal_fat.round(0) %>
+            <%= @facts["nf_calories_from_fat"].round(0) %>
           </td>
         </tr>
         <tr class="thick-row">
@@ -30,10 +30,10 @@
         <tr>
           <th colspan="2">
             <b>Total Fat</b>
-            <%= @recipe.calc_total_fat.round(2) %>g
+            <%= @facts["nf_total_fat"].round(2) %>g
           </th>
           <td>
-            <b><%= @recipe.calc_fat_dv.round(1) %>%</b>
+            <b><%= ((@facts["nf_total_fat"] /65)*100).round(2) %>%</b>
           </td>
         </tr>
         <tr>
@@ -41,7 +41,7 @@
           </td>
           <th>
             Saturated Fat
-            <%= @recipe.calc_sat_fat.round(2) %>g
+            <%= @facts["nf_saturated_fat"].round(2) %>g
           </th>
           <td>
           </td>
@@ -51,7 +51,7 @@
           </td>
           <th>
             Polyunsaturated Fat
-            <%= @recipe.calc_poly_fat.round(2) %>g
+            <%= @facts["nf_polyunsaturated_fat"].round(2) %>g
           </th>
           <td>
           </td>
@@ -59,25 +59,23 @@
         <tr>
           <th colspan="2">
             <b>Cholesterol</b>
-            <%= @recipe.calc_cholesterol.round(2) %>mg
+            <%= @facts["nf_cholesterol"].round(2) %>mg
           </th>
           <td>
-            <b><%= @recipe.calc_cholesterol_dv.round(0) %>%</b>
           </td>
         </tr>
         <tr>
           <th colspan="2">
             <b>Sodium</b>
-            <%= @recipe.calc_sodium.round(2) %>mg
+            <%= @facts["nf_sodium"].round(2) %>mg
           </th>
           <td>
-            <b>  <%= @recipe.calc_sodium_dv.round(0) %>%</b>
           </td>
         </tr>
         <tr>
           <th colspan="2">
             <b>Total Carbohydrate</b>
-            <%= @recipe.calc_carbs.round(2) %>g
+            <%= @facts["nf_total_carbohydrate"].round(2) %>g
           </th>
           <td>
           </td>
@@ -87,7 +85,7 @@
           </td>
           <th>
             Dietary Fiber
-            <%= @recipe.calc_fiber.round(2) %>g
+            <%= @facts["nf_dietary_fiber"].round(2) %>g
           </th>
           <td>
           </td>
@@ -97,7 +95,7 @@
           </td>
           <th>
             Sugars
-            <%= @recipe.calc_sugar.round(2) %>g
+            <%= @facts["nf_sugars"].round(2) %>g
           </th>
           <td>
           </td>
@@ -105,7 +103,7 @@
         <tr class="thick-end">
           <th colspan="2">
             <b>Protein</b>
-            <%= @recipe.calc_protein.round(2) %>g
+            <%= @facts["nf_protein"].round(2) %>g
           </th>
           <td>
           </td>
@@ -118,21 +116,21 @@
         <tr>
           <td colspan="2">
             Vitamin A
-            <%= @recipe.calc_a %>%
+            <%= @facts["nf_vitamin_a_dv"] %>%
           </td>
           <td>
             Vitamin C
-            <%= @recipe.calc_c %>%
+            <%= @facts["nf_vitamin_c_dv"] %>%
           </td>
         </tr>
         <tr class="thin-end">
           <td colspan="2">
             Calcium
-            <%= @recipe.calc_calcium %>%
+            <%= @facts["nf_calcium_dv"] %>%
           </td>
           <td>
             Iron
-            <%= @recipe.calc_iron %>%
+            <%= @facts["nf_iron_dv"] %>%
           </td>
         </tr>
       </tbody>

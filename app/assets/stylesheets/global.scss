@@ -158,3 +158,10 @@ div {
     list-style: square;
   }
 }
+
+.inline-icon {
+  font-family: iconFont;
+  font-size: 125%;
+  text-transform: none !important;
+  color: $text-color;
+}

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="240px" height="240px" viewBox="0 0 240 240" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>Pomegranate</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Pomegranate" sketch:type="MSArtboardGroup">
+            <path d="M120,218 C166.944204,218 205,183.592641 205,136.648438 C205,89.7042338 166.944204,59.2421875 120,59.2421875 C73.0557963,59.2421875 35,89.7042338 35,136.648438 C35,183.592641 73.0557963,218 120,218 Z" id="Oval-92" stroke="#D0011B" stroke-width="10" fill="#9D1021" sketch:type="MSShapeGroup"></path>
+            <path d="M120,58.5 L120,215.5" id="Line" stroke="#D0021B" stroke-width="10" stroke-linecap="square" sketch:type="MSShapeGroup"></path>
+            <path d="M120,60.7963424 C126.903559,60.7963424 132.5,64.353159 132.5,51.3744674 C132.5,38.3957757 126.903559,15.8744674 120,15.8744674 C113.096441,15.8744674 107.5,38.3957757 107.5,51.3744674 C107.5,64.353159 113.096441,60.7963424 120,60.7963424 Z" id="Oval-115" fill="#D0021B" sketch:type="MSShapeGroup"></path>
+            <path d="M127.5,59.7963424 C134.403559,59.7963424 140,63.353159 140,50.3744674 C140,37.3957757 156.727778,19.3515625 149.824219,19.3515625 C142.920659,19.3515625 115,37.3957757 115,50.3744674 C115,63.353159 120.596441,59.7963424 127.5,59.7963424 Z" id="Oval-116" fill="#D0021B" sketch:type="MSShapeGroup"></path>
+            <path d="M101.005463,59.7963424 C107.909022,59.7963424 113.505463,63.353159 113.505463,50.3744674 C113.505463,37.3957757 130.233241,19.3515625 123.329682,19.3515625 C116.426122,19.3515625 88.5054629,37.3957757 88.5054629,50.3744674 C88.5054629,63.353159 94.1019035,59.7963424 101.005463,59.7963424 Z" id="Oval-117" fill="#D0021B" sketch:type="MSShapeGroup" transform="translate(106.752731, 39.796875) scale(-1, 1) translate(-106.752731, -39.796875) "></path>
+            <ellipse id="Oval-119" fill="#F27F8D" sketch:type="MSShapeGroup" cx="71" cy="130.5" rx="5" ry="7.5"></ellipse>
+            <ellipse id="Oval-120" fill="#F27F8D" sketch:type="MSShapeGroup" cx="102" cy="113.5" rx="5" ry="7.5"></ellipse>
+            <ellipse id="Oval-126" fill="#F27F8D" sketch:type="MSShapeGroup" cx="84" cy="91.5" rx="5" ry="7.5"></ellipse>
+            <ellipse id="Oval-125" fill="#F27F8D" sketch:type="MSShapeGroup" cx="92" cy="153.5" rx="5" ry="7.5"></ellipse>
+            <ellipse id="Oval-127" fill="#F27F8D" sketch:type="MSShapeGroup" cx="84" cy="184.5" rx="5" ry="7.5"></ellipse>
+            <ellipse id="Oval-128" fill="#F27F8D" sketch:type="MSShapeGroup" cx="138" cy="138.5" rx="5" ry="7.5"></ellipse>
+            <ellipse id="Oval-132" fill="#F27F8D" sketch:type="MSShapeGroup" cx="161" cy="168.5" rx="5" ry="7.5"></ellipse>
+            <ellipse id="Oval-129" fill="#F27F8D" sketch:type="MSShapeGroup" cx="143" cy="177.5" rx="5" ry="7.5"></ellipse>
+            <ellipse id="Oval-130" fill="#F27F8D" sketch:type="MSShapeGroup" cx="148" cy="99.5" rx="5" ry="7.5"></ellipse>
+            <ellipse id="Oval-131" fill="#F27F8D" sketch:type="MSShapeGroup" cx="185" cy="138.5" rx="5" ry="7.5"></ellipse>
+        </g>
+    </g>
+</svg>

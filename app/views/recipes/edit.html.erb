@@ -1,5 +1,7 @@
+<% content_for :title, "Edit #{@recipe.name}" %>
+
 <h1>Editing Recipe</h1>
 
-<%= render 'form' %>
-
-<%= link_to 'Cancel Editing', @recipe %> |
+<div class="actions">
+<%= render 'form' %><%= button_to 'Destroy Recipe', @recipe, method: :delete, data: { confirm: "Are you sure? There is no going back!" }, class: "button-cancel" %>
+</div>

@@ -8,7 +8,9 @@ module ApplicationHelper
     end
   end
 
-  def explore(topic)
+  def authorize_user(recipe)
+      recipe.user == current_user
   end
+
 
 end

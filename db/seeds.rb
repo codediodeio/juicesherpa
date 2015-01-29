@@ -21,7 +21,14 @@ ingredients = [
 ["Cucumber", "513fceb575b8dbbc21001553"],
 ["Pineapple", "513fceb575b8dbbc21001133"],
 ["Beet", "513fceb575b8dbbc21001485"],
-["Celery", "513fceb575b8dbbc210014ff"]
+["Celery", "513fceb575b8dbbc210014ff"],
+["Lemon", "513fceb575b8dbbc2100106b"],
+["Lime", "463d623782ece37e0328e900"],
+["Grapes", "513fceb575b8dbbc21001052"],
+["Grapefruit", "513fceb475b8dbbc21001036"],
+["Kiwi", "513fceb575b8dbbc21001068"],
+["Pomegranate", "513fceb575b8dbbc210011e3"],
+["Lettuce", "513fceb575b8dbbc210015a0"]
   ]
 
 ingredients.each do |name,item_id|

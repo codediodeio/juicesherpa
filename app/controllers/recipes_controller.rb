@@ -1,5 +1,6 @@
 class RecipesController < ApplicationController
   before_action :set_recipe, only: [:show, :edit, :update, :destroy]
+  before_action :authenticate_admin!, only: [:index]
 
   respond_to :html, :js
 
@@ -20,6 +21,7 @@ class RecipesController < ApplicationController
   end
 
   def edit
+    @ingredients = Ingredient.all
   end
 
   def create
@@ -45,7 +47,7 @@ class RecipesController < ApplicationController
 
   def destroy
     @recipe.destroy
-    respond_with(@recipe)
+    redirect_to root_url
   end
 
   def search
@@ -58,6 +60,6 @@ class RecipesController < ApplicationController
     end
 
     def recipe_params
-      params.require(:recipe).permit(:name, :body, :user_id, :recipe_image)
+      params.require(:recipe).permit(:name, :body, :user_id)
     end
 end
