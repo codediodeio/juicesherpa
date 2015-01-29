@@ -1,6 +1,10 @@
-# JuiceSherpa - A Rails App with Dynamic Nutrition Data
+# JuiceSherpa - Juice Recipes with Dynamic Nutrition Data
 
-JuiceSherpa is a prototype app developed for CodeDiode.io. Step-by-step lessons show developers how to build the entire app from scratch.
+Juice Sherpa is a basic Rails that allows users to create juice recipes (yes, the juice you drink) and get live nutrition facts via the Nutritionix API.
+
+## Live Demo
+
+[JuiceSherpa](http://juicesherpa.com)
 
 ## Versions
 
