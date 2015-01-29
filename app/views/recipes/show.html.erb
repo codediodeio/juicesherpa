@@ -25,13 +25,13 @@
 
 <div class="facts-container">
 
-<% unless @facts[0].has_key?("error") %>
+<% if @facts.nil? || @facts[0].has_key?("error") %>
 
-   <%= render 'nutrition' %>
+<p> Sorry, it looks like we've maxed out the API requests for the day. </p>
 
    <% else %>
 
-   <p> Sorry, it looks like we've maxed out the API requests for the day. </p>
+   <%= render 'nutrition' %>
 
    <% end %>
 

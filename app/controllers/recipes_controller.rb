@@ -33,7 +33,6 @@ class RecipesController < ApplicationController
       @user = current_user
       @recipe = @user.recipes.build(recipe_params)
     end
-
     @ingredients = Ingredient.find(params[:ingredients])
     @recipe.ingredients = @ingredients
     @recipe.save
