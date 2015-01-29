@@ -10,3 +10,5 @@ class CreateRecipes < ActiveRecord::Migration
     add_foreign_key :recipes, :users
   end
 end
+
+# Heroku not adding :soft_user_token... Why?

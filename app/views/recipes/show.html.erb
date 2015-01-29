@@ -17,7 +17,7 @@
   <div class="ingredient-image">
     <%= image_tag(get_image(i.name), width: "75") %>
   </div>
-  <%= i.name %>
+  <%= link_to i.name, i %>
 </div>
 <% end %>
 
