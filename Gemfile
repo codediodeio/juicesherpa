@@ -34,6 +34,10 @@ gem "figaro"
 
 gem 'will_paginate', '~> 3.0.6'
 
+# Phusion Passenger Server for Production
+
+
+
 # Refile File Uploads
 # gem "mini_magick"
 # gem "refile", require: ["refile/rails", "refile/image_processing"]
@@ -47,8 +51,10 @@ gem 'will_paginate', '~> 3.0.6'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-# Deploy with Heroku
-gem 'rails_12factor', group: :production
+# Deploy with Heroku and Phusion Passenger
+gem 'rails_12factor', group: :production do
+gem "passenger"
+end
 
 
 group :development, :test do
