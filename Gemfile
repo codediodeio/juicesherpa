@@ -52,9 +52,10 @@ gem 'will_paginate', '~> 3.0.6'
 # gem 'capistrano-rails', group: :development
 
 # Deploy with Heroku and Phusion Passenger
-gem 'rails_12factor', group: :production do
+gem 'rails_12factor', group: :production
+
 gem "passenger"
-end
+
 
 
 group :development, :test do
