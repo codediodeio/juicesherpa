@@ -60,24 +60,21 @@ p {
 }
 
 a {
-  color: $text-color;
+  color: #FC5555;
   text-decoration: none;
 
   &:hover{
-    border-bottom: thin dashed #B8E986;
+    color: #7ED321;
   }
 
   &:active{
 
   }
 
-  &:visited{
-    color: $text-color;
-    text-decoration: none;
-  }
-
 
 }
+
+
 
 .field {
   margin: 4%;

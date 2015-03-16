@@ -26,6 +26,8 @@ class RecipesController < ApplicationController
 
   def create
 
+    @ingredients = Ingredient.all
+
     if current_user.soft_user?
       @recipe = Recipe.new(recipe_params)
       @recipe.soft_user_token = current_user.soft_user_token
@@ -35,12 +37,12 @@ class RecipesController < ApplicationController
     end
 
     if params[:ingredients]
-    @ingredients = Ingredient.find(params[:ingredients])
+    @r_ingredients = Ingredient.find(params[:ingredients])
     else
-      @ingredients = []
+      @r_ingredients = []
     end
 
-    @recipe.ingredients = @ingredients
+    @recipe.ingredients = @r_ingredients
     @recipe.save
     respond_with(@recipe)
   end
@@ -65,6 +67,6 @@ class RecipesController < ApplicationController
     end
 
     def recipe_params
-      params.require(:recipe).permit(:name, :body, :user_id)
+      params.require(:recipe).permit(:name, :body, :user_id, :featured_image)
     end
 end

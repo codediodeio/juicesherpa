@@ -6,6 +6,9 @@
 
 <p>Created by <strong><%= @recipe.type_of_user %></strong></p>
 
+<%= link_to image_tag(@recipe.featured_image_url(:thumb)), @recipe.featured_image_url %>
+
+<h2>About this Juice Recipe</h2>
 
 <p><%= @recipe.body %></p>
 

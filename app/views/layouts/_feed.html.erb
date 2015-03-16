@@ -5,6 +5,7 @@
 
 <div class="juice-container">
   <h3><%= link_to recipe.name, recipe %></h3>
+  <%= link_to image_tag(recipe.featured_image_url(:thumb), width: "150px"), recipe, style: "max-width:100%;height:auto;" %>
   <p><%= truncate(recipe.body, lenght: 50) %></p>
 </div>
 <% end %>
@@ -13,6 +14,7 @@
 <% @soft_recipes.each do |recipe| %>
 <div class="juice-container">
   <h3><%= link_to recipe.name, recipe %></h3>
+  <%= link_to image_tag(recipe.featured_image_url(:thumb), width: "150px"), recipe, style: "max-width:100%;height:auto;" %>
   <p><%= truncate(recipe.body, lenght: 50) %></p>
 </div>
 <% end %>
@@ -25,12 +27,13 @@
 
 <% end %>
 
-<h2>Popular Juices</h2>
+<h2>Popular Juice Recipes</h2>
 
 <% @recipes.each do |recipe| %>
 
 <div class="juice-container">
   <h3><%= link_to recipe.name, recipe %></h3>
+  <%= link_to image_tag(recipe.featured_image_url(:thumb), width: "150px"), recipe, style: "max-width:100%;height:auto;" %>
   <p><%= truncate(recipe.body, length: 50) %></p>
 </div>
 

@@ -34,13 +34,14 @@ gem "figaro"
 
 gem 'will_paginate', '~> 3.0.6'
 
-# Phusion Passenger Server for Production
 
 
+# CarrierWave File Uploads
+gem 'carrierwave'
+gem 'mini_magick'
+gem 'fog'
 
-# Refile File Uploads
-# gem "mini_magick"
-# gem "refile", require: ["refile/rails", "refile/image_processing"]
+gem 'font-awesome-rails'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
@@ -54,9 +55,10 @@ gem 'will_paginate', '~> 3.0.6'
 # Deploy with Heroku and Phusion Passenger
 gem 'rails_12factor', group: :production
 
+# Phusion Passenger Server for Production
+
 gem "passenger"
-
-
+gem 'newrelic_rpm'
 
 group :development, :test do
   # Rspec 3.0 for Testing

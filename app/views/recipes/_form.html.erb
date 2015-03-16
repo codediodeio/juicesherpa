@@ -12,16 +12,23 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :name, "Give your Juice Recipe a Name" %><br>
+    <%= f.label :name, "Give your Juice Recipe a Name (required)" %><br>
     <%= f.text_field :name %>
   </div>
 
   <div class="field">
-    <%= f.label :body, "What's Special about this Juice?" %><br>
+    <%= f.label :body, "What's Special about this Juice? (optional)" %><br>
     <%= f.text_area :body %>
   </div>
 
-  <h2>Choose Ingredients</h2>
+  <div class="field">
+  <p><%= f.label :featured_image, "Have a Cool Picture? (optional)" %></p>
+    <%= f.file_field :featured_image %>
+  </div>
+
+
+
+  <h2>Choose Ingredients (required)</h2>
 
 <% @ingredients.each do |i| %>
 

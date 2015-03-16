@@ -8,6 +8,18 @@ class Recipe < ActiveRecord::Base
   validates :name, presence: true, length: {minimum: 2, maximum: 30}
   validates_presence_of :ingredients
 
+  validate :file_size
+
+  mount_uploader :featured_image, ImageUploader
+
+  def file_size
+    unless featured_image.file.nil?
+      if featured_image.file.size.to_f > 5000000 #5 MB
+        errors.add(:featured_image, "You cannot upload a file greater than 5 MB")
+      end
+    end
+  end
+
   # Search Method
 
   def self.search(params)
